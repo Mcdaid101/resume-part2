@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+div#map {min-height: 360px;}
+
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
@@ -12,6 +14,14 @@
 
 .ui-menu-color-home {
     background-color: #e67e22;
+}
+
+.ui-menu-color-github {
+    background-color: red;
+}
+
+.ui-menu-color-interests {
+    background-color: pink;
 }
 
 .ui-menu-color-resume {
