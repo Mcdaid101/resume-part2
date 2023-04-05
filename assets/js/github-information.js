@@ -1,11 +1,11 @@
 function fetchGitHubInformation(event) {
-
+// if nothing in search bar, please enter a username appears. 
     var username = $("#gh-username").val();
     if (!username) {
         $("#gh-user-data").html(`<h2>Please enter a GitHub username</h2>`);
         return;
-    }
-
+    }  
+// loading gif appears to emulate searches 
     $("#gh-user-data").html(
         `<div id="loader">
             <img src="assets/css/loader.gif" alt="loading..." />
